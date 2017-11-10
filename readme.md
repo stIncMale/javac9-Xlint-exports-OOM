@@ -1,5 +1,5 @@
 # javac9-Xlint-exports-OOM
-A minimal working example that reproduces javac 9 OutOfMemoryException caused by -Xlint:exports option. 
+A minimal working example that reproduces javac 9 OutOfMemoryError caused by -Xlint:exports option. 
 
 Before reproducing one need to download the required external dependencies:
 https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
