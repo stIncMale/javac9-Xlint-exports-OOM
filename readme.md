@@ -1,7 +1,7 @@
 # javac9-Xlint-exports-OOM
 A minimal working example that reproduces
-```javac 9``` (```Java HotSpot(TM) 64-Bit Server VM (build 9+181, mixed mode)``` on ```masOS Sierra 10.12.6```)
-```OutOfMemoryError``` caused by ```-Xlint:exports``` option. 
+```javac 9.0.1``` (```Java HotSpot(TM) 64-Bit Server VM (build 9.0.1+11, mixed mode)``` on ```masOS Sierra 10.12.6```)
+```OutOfMemoryError``` caused by ```-Xlint:exports``` option. This problem has beed reported to Oracle with internal review ```ID : 9051540```.  
 
 Before reproducing one need to download the required external dependencies:
 https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
