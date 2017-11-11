@@ -9,6 +9,7 @@
  */
 module stinc.male.server {
   requires transitive jsr305;
+//  requires com.google.common; //uncomment this line in order to reproduce the OutOfMemoryError with maven-compiler-plugin
   requires java.dogstatsd.client;
   exports mypackage;
 }
