@@ -31,5 +31,6 @@ As a workaround in projects we can:
 and get a list of all ```warning: [exports] ... is not indirectly exported using requires transitive``` produced by ```-Xlint:exports``` option.
 * Fix the warnings by adding only the optimally required ```requires transitive``` in modules.
 
-All content is licensed under [![WTFPL logo](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-2.png)](http://www.wtfpl.net/),
-except where another license is explicitly specified.
+---
+
+Licensed under [WTFPL](http://www.wtfpl.net/), except where another license is explicitly specified.
